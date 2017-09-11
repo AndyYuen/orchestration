@@ -1,0 +1,47 @@
+
+<form id="158272743">
+<property name="name" value="orchestration.InvokeRecordSDA-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="action" type="InputText" id="68117194">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (action)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="canRetry" type="CheckBox" id="628180902">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;canRetry (canRetry)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="canRetry"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="signalDeploymentId" type="InputText" id="1954599613">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;signalDeploymentId (signalDeploymentId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="signalDeploymentId"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="signalProcessInstanceId" type="InputTextLong" id="1156049261">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;signalProcessInstanceId (signalProcessInstanceId)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="signalProcessInstanceId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="4" name="status" type="InputText" id="1693647220">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="action" value="java.lang.String" id="action"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="canRetry" value="java.lang.Boolean" id="canRetry"/>
+<dataHolder inputId="" name="#FBB767" type="className" outId="rnd" value="java.util.Random" id="rnd"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="signalDeploymentId" value="java.lang.String" id="signalDeploymentId"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="signalProcessInstanceId" value="java.lang.Long" id="signalProcessInstanceId"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="status" value="java.lang.String" id="status"/>
+</form>
